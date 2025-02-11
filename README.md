@@ -1,0 +1,1 @@
+This repository will keep my archives related to the tech course, since some computers don't have a USB entry and the cellphone is banished from school, so it will work as my pendrive, since I'll copy and paste stuff between them.
