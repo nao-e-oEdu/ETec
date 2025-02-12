@@ -1,0 +1,10 @@
+Ideias:
+Plataforma de Ensino com Realidade Aumentada (AR) ou Realidade Virtual (VR): Criar uma plataforma de ensino que usa AR ou VR para tornar o aprendizado mais interativo. Pode ser em áreas como história, biologia, ou até programação, criando experiências mais imersivas.
+
+Sistema de Recomendação Inteligente com IA para Serviços Locais: Um app que sugira restaurantes, atividades ou lojas com base em inteligência artificial, levando em conta dados como o clima, preferências do usuário e análises de sentimentos (comentários de outros usuários).
+
+Aplicativo para Monitoramento de Bem-Estar Mental: Um sistema que combina dados de uso diário de apps, padrões de sono, e atividades para sugerir rotinas que melhorem o bem-estar mental. Pode até incluir interações com chatbots para suporte emocional.
+
+Sistema de Prevenção de Fake News com Análise Semântica: Criar um sistema que detecta fake news em tempo real, analisando semântica e verificando fontes de notícias com inteligência artificial. Pode incluir uma extensão para navegadores que avisa se a informação que você tá lendo é falsa.
+
+Sistema de Gestão de Energia Inteligente para Casas ou Empresas: Criar uma plataforma que usa IA para otimizar o consumo de energia em residências ou empresas. O sistema pode sugerir ajustes baseados no comportamento do usuário e prever picos de consumo.
