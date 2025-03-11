@@ -8,3 +8,38 @@ Aplicativo para Monitoramento de Bem-Estar Mental: Um sistema que combina dados 
 Sistema de Prevenção de Fake News com Análise Semântica: Criar um sistema que detecta fake news em tempo real, analisando semântica e verificando fontes de notícias com inteligência artificial. Pode incluir uma extensão para navegadores que avisa se a informação que você tá lendo é falsa.
 
 Sistema de Gestão de Energia Inteligente para Casas ou Empresas: Criar uma plataforma que usa IA para otimizar o consumo de energia em residências ou empresas. O sistema pode sugerir ajustes baseados no comportamento do usuário e prever picos de consumo.
+
+Ideias selecionadas:
+
+1 - Sistema de Gestão de Energia Inteligente para Casas ou Empresas: Criar uma plataforma que usa IA para otimizar o consumo de energia em residências ou empresas. O sistema pode sugerir ajustes baseados no comportamento do usuário e prever picos de consumo.
+
+2 - Sistema de Prevenção de Fake News com Análise Semântica: Criar um sistema que detecta fake news em tempo real, analisando semântica e verificando fontes de notícias com inteligência artificial. Pode incluir uma extensão para navegadores que avisa se a informação que você tá lendo é falsa.
+
+
+
+Sugestões ideia 1:
+
+Resumo sobre a Conversa
+Você está desenvolvendo uma ideia para o seu TCC que consiste em criar um sistema para monitorar e controlar o consumo energético de dispositivos elétricos em um ambiente. O sistema seria conectado a dispositivos como lâmpadas, tomadas e televisores via Wi-Fi, permitindo que o usuário tenha controle remoto e obtenha estimativas de consumo energético. Durante a conversa, você expressou uma dúvida sobre a interferência das ondas eletromagnéticas, mencionando que isso poderia tornar o sistema instável, inseguro e propenso a falhas.
+
+Interferência Eletromagnética e Soluções Propostas
+Você está correto ao se preocupar com a interferência das ondas eletromagnéticas, como as de Wi-Fi, que podem ser afetadas por outros dispositivos que operam na mesma faixa de frequência ou até por imãs fortes. No entanto, a interferência pode causar falhas temporárias na comunicação, como perda de dados ou atrasos nos comandos, mas não resultaria em danos permanentes aos aparelhos conectados.
+
+Para tornar o sistema mais confiável, seguro e estável, sugeri algumas abordagens, incluindo:
+
+Uso de múltiplos protocolos de comunicação: Além do Wi-Fi, você pode usar tecnologias como Zigbee e Bluetooth Low Energy (BLE), que são mais resilientes à interferência. O Zigbee, por exemplo, opera em frequências de 2,4 GHz (semelhante ao Wi-Fi) e também em 868 MHz e 915 MHz. Ele é eficaz para redes de dispositivos de baixa potência e curta distância e pode operar em uma rede mesh, onde dispositivos retransmitem sinais para aumentar o alcance. O BLE é uma alternativa de baixo consumo de energia para comunicação de curto alcance, ideal para dispositivos em uma casa inteligente.
+
+Buffers de controle local: Uma solução importante seria implementar buffers de controle local nos dispositivos, permitindo que, se a comunicação falhar, o dispositivo execute comandos de forma autônoma (por exemplo, desligar uma lâmpada), garantindo que o sistema continue funcional mesmo com falhas de rede temporárias.
+
+Redundância e retransmissão de pacotes: Implementar técnicas de retransmissão de pacotes e redundância ajudaria a aumentar a confiabilidade. Se um pacote de comando não for entregue corretamente, ele pode ser reenviado automaticamente. Isso garantiria que os comandos sejam executados mesmo em ambientes com interferências.
+
+Segurança elétrica: Além disso, sugeri usar módulos de controle de energia com proteção contra sobrecarga, como fusíveis ou disjuntores, para evitar danos aos aparelhos conectados devido a falhas elétricas.
+
+Monitoramento e alertas: O sistema poderia monitorar o consumo dos dispositivos e enviar alertas caso algum dispositivo estivesse consumindo mais energia do que o esperado ou apresentasse falhas.
+
+Atualizações de firmware: Implementar um sistema de atualização de firmware over-the-air (OTA) permitiria que o sistema fosse atualizado remotamente, corrigindo bugs ou melhorando a segurança de forma rápida.
+
+Distância Máxima do Zigbee e Protocolos de Comunicação
+O Zigbee é adequado para distâncias curtas, com alcance de até 100 metros em áreas abertas, mas a distância pode ser reduzida em ambientes fechados ou com obstáculos. Para aumentar o alcance, o Zigbee pode usar sua rede mesh, onde os dispositivos podem atuar como repetidores de sinal.
+
+Além do Zigbee, o Bluetooth Low Energy (BLE) é mais adequado para distâncias curtas, geralmente de até 100 metros, dependendo do ambiente.
